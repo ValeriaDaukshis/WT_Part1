@@ -1,5 +1,5 @@
-HTML
+HTML link:
 https://htmlacademy.ru/courses/basic-html
 
-CSS
+CSS link:
 https://htmlacademy.ru/courses/basic-css
