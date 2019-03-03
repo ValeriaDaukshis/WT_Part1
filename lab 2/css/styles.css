@@ -1,35 +1,40 @@
+html{
+    overflow-x: hidden;
+}
 body{
     margin: 0;
     font-size: 0;
     background-color: #ebebeb;
 }
 header{
-    margin: 0;
     padding: 0;
-    height: 100px;
-    background-color: black;
+    background-color: #373c3f;
+}
+nav img{
+    visibility: hidden;
 }
 nav{
     margin-right: 45%;
-    margin-top: 35px;
-    margin-bottom: 0;
+    margin-top: -15px;
+    margin-bottom: -15px;
     list-style: none;
-    color: white;
+    color: #ebebeb;
     display: inline-block;
 }
 
 li{
     font-family: Tahoma, serif;
     font-size: 15px;
-    margin: 0 15px;
+    margin: -55px 15px 45px 0;
     display: inline-block;
     border-left:100px;
     border-right:100px;
 }
 a{
     text-decoration: none;
-    color: wheat ;
+    color: #ebebeb;
 }
+
 img.banner{
     padding: 0;
     left: 0px;
@@ -77,6 +82,56 @@ section.textArea div a{
     top: 100px;
     font-size: 25px;
     margin-left: 35px;
+}
+
+
+@media (min-width: 320px) and (max-width: 648px){
+
+    nav{
+        margin: 0;
+        width: 100%;
+        font-size: 0;
+    }
+    nav ul{
+        visibility: hidden;
+        padding: 0;
+        margin: 0;
+        height: 0;
+        font-size: 0;
+    }
+    nav li{
+        visibility: hidden;
+        margin: 0;
+        font-size: 0;
+    }
+
+    nav img{
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+        visibility: visible;
+    }
+    .banner{
+        width: 100%;
+    }
+
+    section.inline-images img{
+        display: inline;
+        width: 100%;
+    }
+
+    section.textArea{
+        display: inline ;
+    }
+
+    .textArea .EndText_part1 {
+        display: inline ;
+
+    }
+    .textArea .EndText_part2 {
+        display: inline;
+    }
+
 }
 
 
